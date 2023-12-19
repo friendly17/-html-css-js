@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="my">
+    <p class="announce">Announce</p>
+</div>
+
+<ul class="tt pm">
+    <li>
+        <ul><li><a href="#">Навести</a> <span>Подсветить</span></li></ul>
+    </li>
+</ul>
+
+<style>
+  #my p.announce, .tt.pm li li a:hover + span { 
+    color: #f00;
+}
+</style>
+</body>
+</html>
